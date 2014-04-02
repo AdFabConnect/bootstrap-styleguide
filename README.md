@@ -21,9 +21,11 @@ How It work's ?
 
 1. edit file package.json and change variable localConfig with your config
 
+````
 "localConfig": {
     "host": "http://localhost:8888/", // your localhost
     "pathname": // if the folder isn't root folder
+````
 
 2. run > git clone https://github.com/AdFabConnect/boostrap-styleguide
 
@@ -71,10 +73,12 @@ Markup : [ HTML TAGS ]
 [ Classes et States ]
 
 Styleguide [ STYLEGUIDE NUMBER ]
-*/````
+*/
+````
 
 Real example :
 
+````
 /* My component
 
 Description of my component
@@ -86,6 +90,7 @@ Markup: <div class="mon-div {$modifiers}">Bla bla bla</div>
 
 Styleguide 1
 */
+````
 
 Note that you need to increment "Styleguide {NUMB}" each time you add one and start after bootstrap indexes
 
