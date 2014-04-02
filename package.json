@@ -1,0 +1,14 @@
+{
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-cli": "*",
+        "grunt-contrib-watch": "*",
+        "matchdep": "*",
+        "grunt-contrib-less": "*",
+        "grunt-styleguide": "*"
+    },
+    "localConfig": {
+        "host": "http://localhost:8888/",
+        "pathname": ""
+    }
+}
