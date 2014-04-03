@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'css/style.css': 'less/style.less',
-                    'css/bootstrap.css': 'less/bootstrap.less'
+                    'css/bootstrap.css': 'less_bootstrap/bootstrap.less'
                 }
             }
         },
