@@ -5,10 +5,11 @@
         "grunt-contrib-watch": "*",
         "matchdep": "*",
         "grunt-contrib-less": "*",
-        "grunt-styleguide": "*"
+        "grunt-styleguide": "*",
+        "grunt-stylestats": "*"
     },
     "localConfig": {
-        "host": "http://localhost:8888/",
-        "pathname": ""
+        "host": "http://sebia.nlabbe.dev/",
+        "pathname": "sites/sebia/themes/drupalStarterTheme/boostrap-styleguide/"
     }
 }

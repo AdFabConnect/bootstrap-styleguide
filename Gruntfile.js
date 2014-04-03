@@ -38,6 +38,11 @@ module.exports = function(grunt) {
                 }
             }
         },
+        stylestats: {
+            your_target: {
+            	src: ['css/*.css']
+            },
+        },
         watch: {
             all: {
                 files: [
