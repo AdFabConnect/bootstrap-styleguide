@@ -1,0 +1,19 @@
+{
+	"name" : "AdFabConnect/boostrap-styleguide",
+	"type" : "bootstrap-module",
+	"description" : "Bootstrap starter theme",
+	"authors" : [{
+			"name" : "Nicolas labbé",
+			"email" : "nicolas.labbe@adfab.fr"
+		}
+	],
+	"keywords" : [
+		"bootstrap 3",
+		"grunt",
+        "styleguide"
+	],
+	"homepage" : "https://github.com/AdFabConnect/boostrap-styleguide",
+	"license" : [
+		"MIT"
+	]
+}
