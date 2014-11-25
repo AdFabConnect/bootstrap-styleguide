@@ -165,12 +165,12 @@ html {
   line-height: 1.4;
 
   .styleguide-container {
-    width: 980px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     &:before, &:after {
     content: " ";
     display: table;
@@ -200,7 +200,7 @@ html {
 
   .styleguide-menu {
     float: left;
-    width: 200px;
+    width: 20%;
     padding: 3px;
     font-size: 13px;
     background: #efefef;
@@ -271,9 +271,13 @@ html {
 
   .styleguide-content {
     float: left;
-    width: 754px;
-    margin-left: 20px;
+    width: 76%;
+    margin-left: 2%;
     font-size: 14px;
+
+    .img-demo {
+        max-width: 100%
+    }
   }
 
   .styleguide-markdown-body {
