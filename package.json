@@ -5,7 +5,7 @@
         "grunt-contrib-watch": "*",
         "matchdep": "*",
         "grunt-contrib-less": "*",
-        "grunt-styleguide": "*",
+        "grunt-styleguide": "0.2.17",
         "grunt-stylestats": "*"
     },
     "localConfig": {
